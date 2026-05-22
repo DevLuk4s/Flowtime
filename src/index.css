@@ -1,0 +1,19 @@
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #71717a;
+  border-radius: 4px;
+}
+
+/* Fonte do cronômetro — evita números "tremendo" ao mudar */
+.timer-font {
+  font-family: "JetBrains Mono", monospace;
+  font-variant-numeric: tabular-nums;
+}
